@@ -1,9 +1,16 @@
-import { FAQ } from "./faq"
+"use client";
 
-export const Home=()=>{
+import { FAQ } from "./faq"
+import { TopReasons } from "./reason"
+import { ServicePlans } from "./service"
+
+export const HomePage = () => {
     return (
         <>
-        <FAQ/>
+            <TopReasons />
+            <ServicePlans />
+            <FAQ />
+
         </>
     )
 }

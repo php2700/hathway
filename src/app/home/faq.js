@@ -30,7 +30,7 @@ export const FAQ = () => {
 
       return (
             <section className="bg-gradient-to-br from-[#1e1b4b] via-[#312e81] to-[#701a75] py-24">
-                  <div className="container mx-auto px-6 max-w-4xl">
+                  <div className="container mx-auto px-6 max-w-7xl">
                         {/* Heading */}
                         <div className="text-center mb-16">
                               <h2 className="text-4xl font-extrabold text-white mb-4">
